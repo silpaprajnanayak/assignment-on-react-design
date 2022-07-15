@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .App {
   text-align: center;
+  background-color: #f4f4fb;
+  font-family: 'Raleway', sans-serif;
 }
 
 .App-logo {
@@ -36,3 +40,87 @@
     transform: rotate(360deg);
   }
 }
+.Navbar_Color {
+  background-color: white !important;
+  background-color: #f4f4fb;
+}
+
+.searchBar-wrap {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(0,0,0,.26);
+  padding: 1.5rem 1rem;
+}
+.searchBar-icon {
+  color:1px solid rgba(0,0,0,.26);
+  margin-right: 2rem;
+
+}
+
+.searchBar-wrap input {
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.searchBar-wrap input::placeholder {
+  color: 1px solid rgba(0,0,0,.26);
+}
+.search-bar-para{
+  display: flex;
+}
+.search-bar-para p {
+  color: blue;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+  -ms-overflow-style: none; /*IE and edge*/
+  scrollbar-width: none; /* Firefox */
+}
+.welcome-text {
+  display: 'flex';
+  margin-top: '40px';
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 768px ) {
+  .welcome-text {
+      text-align: justify;
+      display: grid;
+      gap: 20px;
+      padding-top: 41px;
+      grid-template-columns: repeat(3,1fr);
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+ 
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+}
+@keyframes resize {
+  0%, 100% {
+    width: 100%;
+  }
+  50% {
+    width: 50%;
+  }
+}
+.navbar-brand {
+  margin-right: '7rem' !important;
+}
+
